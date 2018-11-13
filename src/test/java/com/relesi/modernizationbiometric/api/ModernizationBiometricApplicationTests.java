@@ -1,4 +1,4 @@
-/*package com.relesi.modernizationbiometric.api;
+package com.relesi.modernizationbiometric.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,4 +13,4 @@ public class ModernizationBiometricApplicationTests {
 	public void contextLoads() {
 	}
 
-}*/
+}
