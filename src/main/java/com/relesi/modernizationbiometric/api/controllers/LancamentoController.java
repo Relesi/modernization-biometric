@@ -177,7 +177,7 @@ public class LancamentoController {
 	 */
 
 	@DeleteMapping(value = "/{id}")
-	@PreAuthorize("hasAnyRole('ADMIN)")
+	@PreAuthorize("hasAnyRole('ADMIN')")	
 	public ResponseEntity<Response<String>> remover(@PathVariable("id") Long id) {
 		log.info("Removendo lançamento: {}", id);
 		Response<String> response = new Response<String>();
