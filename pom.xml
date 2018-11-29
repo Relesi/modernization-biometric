@@ -122,6 +122,13 @@
 		</dependency>
 
 
+		<!-- EhCache -->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
