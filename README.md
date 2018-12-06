@@ -2,3 +2,9 @@
 
 # Modernization-Biometric
  Modernization of biometrics with java and spring boot.
+ 
+ Documentação em desenvolvimento
+ 
+ Melhorando cobertura de teste e controlando com Jacoco
+ 
+ Aperfeiçoamento do cache.
