@@ -1,18 +1,6 @@
 [![Build Status](https://travis-ci.org/Relesi/modernization-biometric.svg?branch=master)](https://travis-ci.org/Relesi/modernization-biometric)
 
-
-# Modernization-Biometric
- Modernization of biometrics with java and spring boot.
- 
- Documentation in development
- 
- Improving test coverage and controlling with Jacoco
- 
- Cache Enhancement.
-
-----------------------------------------------------------
- 
- # Biometric Modernization
+# Biometric Modernization
 Biometric system API with Java and Spring Boot.
 ### RESTful API Details
 The RESTful Modernization Biometric API contains the following features:
