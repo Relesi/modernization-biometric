@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Relesi/modernization-biometric.svg?branch=master)](https://travis-ci.org/Relesi/modernization-biometric)
 
-# Biometric Modernization
+## Biometric Modernization
 Biometric system API with Java and Spring Boot.
 ### RESTful API Details
 The RESTful Modernization Biometric API contains the following features:
@@ -17,11 +17,12 @@ Be sure to have Maven installed and added to the PATH of your operating system, 
 git clone https://github.com/Relesi/modernization-biometric
 cd modernization-biometric-api
 mvn spring-boot: run
-Access the endpoints through the http: // localhost: 8080 url
+Access the endpoints through the http://localhost: 8088 url
 
 ### Importing the project into Eclipse or STS
+
 At the terminal, perform the following operation:
 
-mvn eclipse: eclipse
+    mvn eclipse: eclipse
 
-In Eclipse / STS, import the project as a Maven project.
+In Eclipse, STS or Intellij, import the project as a Maven project.
