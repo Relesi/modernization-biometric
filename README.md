@@ -26,3 +26,6 @@ At the terminal, perform the following operation:
     mvn eclipse: eclipse
 
 In Eclipse, STS or Intellij, import the project as a Maven project.
+
+    gs-spring-boot/initial
+    mvn spring-boot:run
