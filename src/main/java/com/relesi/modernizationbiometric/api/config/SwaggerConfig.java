@@ -38,7 +38,7 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("Ponto Inteligente API")
+		return new ApiInfoBuilder().title("Modernization Biometric API")
 				.description("Documentação da API de acesso aos endpoints do Ponto Inteligente.").version("1.0")
 				.build();
 	}
@@ -47,7 +47,7 @@ public class SwaggerConfig {
 	public SecurityConfiguration security() {
 		String token;
 		try {
-			UserDetails userDetails = this.userDetailsService.loadUserByUsername("renatolessa.2011@hotmail.com");
+			UserDetails userDetails = this.userDetailsService.loadUserByUsername("renato.lessa@relesi.com.br");
 			token = this.jwtTokenUtil.obterToken(userDetails);
 		} catch (Exception e) {
 			token = "";
